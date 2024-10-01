@@ -1,3 +1,16 @@
+### How to run the application
+
+```bash
+# start the database
+json-server --watch db.json --port 3001
+
+# in another terminal, run the server
+npm run start
+
+# Update the API link in the React component
+const API_URL = 'https://3001-sambitasuna-reactprojec-yyts9vr8kvr.ws-us116.gitpod.io/persons';
+```
+
 ### how to fix an empty repo push
 
 - There might be a embeded git repository
